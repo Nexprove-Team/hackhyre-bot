@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Output files (but keep package.json)
+output/
+output/*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+
+output
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

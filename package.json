@@ -1,0 +1,26 @@
+{
+  "name": "job-scraper",
+  "version": "1.0.0",
+  "description": "Production-grade job scraper for RemoteOK - extracts real job listings with verifiable data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js backend"
+  },
+  "keywords": [
+    "web-scraper",
+    "job-scraper",
+    "remoteok",
+    "jobs",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
